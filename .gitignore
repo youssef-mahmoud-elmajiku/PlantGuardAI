@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+dist/
+coverage/
+
+# Flutter / Dart
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+.flutter-plugins
+.flutter-plugins-dependencies
+build/
+
+# Secrets, models, datasets, and local DB
+.env
+.env.*
+!.env.example
+*.sqlite
+*.db
+*.h5
+*.keras
+*.pt
+*.pth
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
